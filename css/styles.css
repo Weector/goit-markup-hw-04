@@ -117,7 +117,7 @@ p {
   color: var(--accent-color);
 }
 
-.site-nav .item:not(:last-child) {
+.nav-item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -142,10 +142,10 @@ p {
   color: var(--accent-color);
 }
 
-.auth-nav .item:not(:last-child) {
+.auth-item:not(:last-child) {
   margin-right: 50px;
 }
-.icon {
+.icon-auth {
   margin-right: 10px;
   fill: currentColor;
 }
@@ -192,7 +192,7 @@ p {
   text-align: center;
 }
 
-.filter-box .item:not(:last-child) {
+.filter-item:not(:last-child) {
   margin-right: 8px;
 }
 
@@ -246,19 +246,19 @@ p {
   overflow: hidden;
 }
 
-.benefit-item {
+.benefit {
   display: flex;
   padding-left: 0;
   padding-top: 94px;
 }
-.benefit-item .item {
+.benefit-item {
   width: 270px;
 }
-.benefit-item .item:not(:last-child) {
+.benefit-item:not(:last-child) {
   margin-right: 30px;
 }
 
-.benefit {
+.benefit-title {
   margin-top: 0;
   margin-bottom: 10px;
   color: var(--title-text-color);
@@ -266,7 +266,7 @@ p {
   line-height: 1.14;
   text-transform: uppercase;
 }
-.benefit-title {
+.benefit-text {
   margin-top: 0;
   margin-bottom: 0;
   line-height: 1.71;
@@ -296,7 +296,7 @@ p {
   padding-left: 0;
 }
 
-.item-specilization:not(:last-child) {
+.specilization-item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -359,6 +359,7 @@ p {
   border-radius: 50%;
   justify-content: center;
   align-items: center;
+  outline: none;
 }
 
 .clients {
@@ -400,24 +401,24 @@ p {
   padding-right: 0;
 }
 
-.project .item {
+.project-item {
   margin-right: 30px;
   margin-bottom: 30px;
 }
 
-.project .item:nth-child(3n) {
+.project-item:nth-child(3n) {
   margin-right: 0;
 }
-.project .item:nth-last-child(-n + 3) {
+.project-item:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
 
-.project .item:hover {
+.project-item:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.project .image-title {
+.image-title {
   padding-top: 20px;
   padding-left: 24px;
   color: var(--title-text-color);
@@ -425,7 +426,7 @@ p {
   letter-spacing: 0.06em;
 }
 
-.project .affiliation {
+.affiliation {
   margin-top: 4px;
   padding-bottom: 20px;
   padding-left: 24px;
@@ -509,8 +510,9 @@ p {
 .icon-join:hover,
 .icon-join:focus {
   background: var(--accent-color);
+  outline: none;
 }
 
-.item-sn:not(:last-child) {
+.sn-item:not(:last-child) {
   margin-right: 10px;
 }
