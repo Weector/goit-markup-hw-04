@@ -18,11 +18,11 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="header-bg">
+    <header class="header">
       <div class="container main-nav">
-        <a href="./index.html" class="logo">Web<span class="logo-black">Studio</span></a>
-        <nav>
-          <ul class="site-nav list">
+        <nav class="site-nav">
+          <a href="./index.html" class="logo">Web<span class="logo-black">Studio</span></a>
+          <ul class="navigation list">
             <li class="nav-item"><a href="./index.html" class="nav-link">Студия</a></li>
             <li class="nav-item">
               <a href="./portfolio.html" class="nav-link current">Портфолио</a>
@@ -51,7 +51,7 @@
       </div>
     </header>
     <main>
-      <section class="section portfolio-bg">
+      <section class="section">
         <div class="container">
           <ul class="filter-box list">
             <li class="filter-item">
@@ -64,8 +64,6 @@
             <li class="filter-item"><button type="button" class="filter-btn">Дизайн</button></li>
             <li class="filter-item"><button type="button" class="filter-btn">Маркетинг</button></li>
           </ul>
-        </div>
-        <div class="container">
           <h1 class="visually-hidden">Портфолио</h1>
           <ul class="project list">
             <li class="project-item">
@@ -76,7 +74,7 @@
                 width="370"
                 height="294"
               />
-              <div class="title-border">
+              <div class="title-thumb">
                 <h2 class="image-title">Технокряк</h2>
                 <p class="affiliation">Веб-сайт</p>
               </div>
@@ -89,7 +87,7 @@
                 width="370"
                 height="294"
               />
-              <div class="title-border">
+              <div class="title-thumb">
                 <h2 class="image-title">Постер New Orlean vs Golden Star</h2>
                 <p class="affiliation">Дизайн</p>
               </div>
@@ -102,7 +100,7 @@
                 width="370"
                 height="294"
               />
-              <div class="title-border">
+              <div class="title-thumb">
                 <h2 class="image-title">Ресторан Seafood</h2>
                 <p class="affiliation">Приложение</p>
               </div>
@@ -115,7 +113,7 @@
                 width="370"
                 height="294"
               />
-              <div class="title-border">
+              <div class="title-thumb">
                 <h2 class="image-title">Проект Prime</h2>
                 <p class="affiliation">Маркетинг</p>
               </div>
@@ -128,7 +126,7 @@
                 width="370"
                 height="294"
               />
-              <div class="title-border">
+              <div class="title-thumb">
                 <h2 class="image-title">Проект Boxes</h2>
                 <p class="affiliation">Приложение</p>
               </div>
@@ -141,7 +139,7 @@
                 width="370"
                 height="294"
               />
-              <div class="title-border">
+              <div class="title-thumb">
                 <h2 class="image-title">Inspiration has no Borders</h2>
                 <p class="affiliation">Веб-сайт</p>
               </div>
@@ -154,7 +152,7 @@
                 width="370"
                 height="294"
               />
-              <div class="title-border">
+              <div class="title-thumb">
                 <h2 class="image-title">Издание Limited Edition</h2>
                 <p class="affiliation">Дизайн</p>
               </div>
@@ -167,7 +165,7 @@
                 width="370"
                 height="294"
               />
-              <div class="title-border">
+              <div class="title-thumb">
                 <h2 class="image-title">Проект LAB</h2>
                 <p class="affiliation">Маркетинг</p>
               </div>
@@ -180,7 +178,7 @@
                 width="370"
                 height="294"
               />
-              <div class="title-border">
+              <div class="title-thumb">
                 <h2 class="image-title">Growing Business</h2>
                 <p class="affiliation">Приложение</p>
               </div>
@@ -189,56 +187,58 @@
         </div>
       </section>
     </main>
-    <footer class="footer-bg">
-      <div class="container footer">
-        <address>
-          <ul class="address list">
-            <li class="logo-footer">
-              <a class="logo" href="./index.html">Web<span class="logo-white">Studio</span></a>
-            </li>
-            <li>
-              <a class="footer-address" href="">г. Киев, пр-т Леси Украинки, 26</a>
-            </li>
-            <li>
-              <a class="footer-link" href="mailto:info@example.com">info@example.com</a>
-            </li>
-            <li>
-              <a class="footer-link" href="tel:+380991111111">+38 099 111 11 11</a>
-            </li>
-          </ul>
-        </address>
-        <div>
-          <h2 class="join-title">присоединяйтесь</h2>
-          <ul class="social-network list">
-            <li class="sn-item">
-              <a class="icon-join" href="">
-                <svg width="20px" height="20px">
-                  <use href="./images/icons.svg#icon-instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="sn-item">
-              <a class="icon-join" href="">
-                <svg width="20px" height="20px">
-                  <use href="./images/icons.svg#icon-twitter"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="sn-item">
-              <a class="icon-join" href="">
-                <svg width="20px" height="20px">
-                  <use href="./images/icons.svg#icon-facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="sn-item">
-              <a class="icon-join" href="">
-                <svg width="20px" height="20px">
-                  <use href="./images/icons.svg#icon-linkedin"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
+    <footer class="footer">
+      <div class="container">
+        <div class="cont">
+          <div class="addcont">
+            <a class="logo" href="./index.html">Web<span class="logo-white">Studio</span></a>
+            <address>
+              <ul class="address list">
+                <li class="address-item">
+                  <a class="footer-address" href="">г. Киев, пр-т Леси Украинки, 26</a>
+                </li>
+                <li class="address-item">
+                  <a class="footer-link" href="mailto:info@example.com">info@example.com</a>
+                </li>
+                <li class="address-item">
+                  <a class="footer-link" href="tel:+380991111111">+38 099 111 11 11</a>
+                </li>
+              </ul>
+            </address>
+          </div>
+          <div class="join-box">
+            <h2 class="join-title">присоединяйтесь</h2>
+            <ul class="social-network list">
+              <li class="sn-item">
+                <a class="icon-join" href="">
+                  <svg width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="sn-item">
+                <a class="icon-join" href="">
+                  <svg width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="sn-item">
+                <a class="icon-join" href="">
+                  <svg width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="sn-item">
+                <a class="icon-join" href="">
+                  <svg width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </footer>
