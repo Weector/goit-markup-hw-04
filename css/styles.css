@@ -305,6 +305,7 @@ p {
   display: inline-flex;
   margin-top: 16px;
   padding: 12px;
+  border-radius: 50%;
   fill: var(--logo-color);
 }
 
