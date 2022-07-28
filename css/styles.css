@@ -504,12 +504,12 @@ p {
   padding: 12px;
   border-radius: 50%;
   fill: var(--white-color);
+  outline: none;
 }
 
 .icon-join:hover,
 .icon-join:focus {
   background: var(--accent-color);
-  outline: none;
 }
 
 .sn-item:not(:last-child) {
