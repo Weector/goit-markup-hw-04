@@ -314,15 +314,9 @@ p {
 
 .icon-sn:hover,
 .icon-sn:focus {
-  display: inline-flex;
   fill: var(--white-color);
-  margin-top: 16px;
   background-color: var(--accent-color);
-  padding: 12px;
   border-radius: 50%;
-  justify-content: center;
-  align-items: center;
-  outline: none;
 }
 
 /* Clients */
