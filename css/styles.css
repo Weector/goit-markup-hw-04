@@ -84,6 +84,7 @@ p {
 /* Site navigation */
 
 .header {
+  padding-left: 0px;
   border-bottom: 1px solid #ececec;
 }
 
