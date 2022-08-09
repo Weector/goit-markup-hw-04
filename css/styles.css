@@ -363,7 +363,7 @@ p {
 
 .filter-box {
   display: flex;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   padding-left: 0px;
   justify-content: center;
 }
